@@ -1,0 +1,72 @@
+body {
+    background-color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.container {
+    max-width: 661px;
+    height: 100vh;
+    background-color: #C4C4C4;
+    margin: 0 auto;
+    border: 1px solid rgb(95, 95, 85);
+}
+
+.container__input {
+    width: 500px;
+    height: 61px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: #FFF;
+    font-size: 24px;
+    padding-left: 10px;
+}
+
+.avtocomplit {
+    margin-bottom: 30px;
+}
+
+.avtocomplit__list {
+    width: 500px;
+    height: 44px;
+    margin: 0 auto;
+    display: block;
+    font-size: 16px;
+    border: 1px solid #000;
+    padding-left: 10px;
+    padding-top: 10px;
+    background-color: #E3E3E3;
+    display: block;
+}
+
+.card {
+    max-width: 500px;
+    max-height: 100%;
+    background-color: #E27BEB;
+    margin: 0 auto;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.card__box {
+    width: 100%;
+    height: 103px;
+    border: 2px solid #000; 
+    padding: 8px 16px;
+}
+
+.card__span {
+    display: block;
+    font-size: 24px;
+}
+
+.btn {
+    position: relative;
+    bottom: 65px;
+    left: 400px;
+    background-color: #E27BEB;
+}
+
+
