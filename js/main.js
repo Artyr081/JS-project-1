@@ -1,4 +1,3 @@
-//const url = "https://api.github.com/search/repositories?q=Q";
 const input = document.querySelector('.container__input');
 const avtocomplit = document.querySelector('.avtocomplit');
 const card = document.querySelector('.card');
